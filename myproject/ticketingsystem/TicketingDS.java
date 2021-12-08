@@ -1,6 +1,5 @@
 package ticketingsystem;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -24,7 +23,7 @@ public class TicketingDS implements TicketingSystem {
     @Override
     public Ticket buyTicket(String passenger, int route, int departure, int arrival){
         // buy ticket
-        int seat = trains[route].lockForSeat(departure - 1, arrival - 1);
+        int seat = trains[route - 1].lockForSeat(departure - 1, arrival - 1);
         if(seat < 0){
             return null;
         }
