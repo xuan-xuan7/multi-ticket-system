@@ -1,0 +1,162 @@
+==== ThreadNum: 1, 10000 op per thread ====
+Total op num: 10000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 43
+RetNum: 996	BuyNum: 3035	QueryNum:5969
+Ret: 1120 ns/op	Buy: 1140 ns/op	Query: 4506 ns/op
+Throughput: 3177.1347962980026 kop/s
+Throughput: 232.5581395348837 kop/s
+
+
+
+==== ThreadNum: 2, 10000 op per thread ====
+Total op num: 20000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 37
+RetNum: 2054	BuyNum: 5985	QueryNum:11960
+Ret: 783 ns/op	Buy: 1285 ns/op	Query: 4385 ns/op
+Throughput: 6476.41253572325 kop/s
+Throughput: 540.5405405405405 kop/s
+
+
+
+==== ThreadNum: 4, 10000 op per thread ====
+Total op num: 40000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 32
+RetNum: 4006	BuyNum: 12043	QueryNum:23950
+Ret: 890 ns/op	Buy: 1089 ns/op	Query: 3691 ns/op
+Throughput: 15223.75193037243 kop/s
+Throughput: 1250.0 kop/s
+
+
+
+==== ThreadNum: 6, 10000 op per thread ====
+Total op num: 60000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 41
+RetNum: 5888	BuyNum: 16355	QueryNum:36112
+Ret: 369 ns/op	Buy: 4147 ns/op	Query: 3446 ns/op
+Throughput: 18004.995302441035 kop/s
+Throughput: 1463.4146341463415 kop/s
+
+
+
+==== ThreadNum: 8, 10000 op per thread ====
+Total op num: 80000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 32
+RetNum: 7981	BuyNum: 19970	QueryNum:47933
+Ret: 1087 ns/op	Buy: 1465 ns/op	Query: 3560 ns/op
+Throughput: 29101.786647363653 kop/s
+Throughput: 2500.0 kop/s
+
+
+
+==== ThreadNum: 16, 10000 op per thread ====
+Total op num: 160000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 51
+RetNum: 16169	BuyNum: 29666	QueryNum:96052
+Ret: 622 ns/op	Buy: 1770 ns/op	Query: 2701 ns/op
+Throughput: 70493.0713034557 kop/s
+Throughput: 3137.2549019607845 kop/s
+
+
+
+==== ThreadNum: 20, 10000 op per thread ====
+Total op num: 200000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 67
+RetNum: 19839	BuyNum: 33511	QueryNum:119806
+Ret: 474 ns/op	Buy: 972 ns/op	Query: 3105 ns/op
+Throughput: 83639.93807526126 kop/s
+Throughput: 2985.0746268656717 kop/s
+
+
+
+==== ThreadNum: 25, 10000 op per thread ====
+Total op num: 250000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 58
+RetNum: 24719	BuyNum: 39138	QueryNum:150171
+Ret: 256 ns/op	Buy: 2101 ns/op	Query: 2606 ns/op
+Throughput: 111484.08830134851 kop/s
+Throughput: 4310.3448275862065 kop/s
+
+
+
+==== ThreadNum: 28, 10000 op per thread ====
+Total op num: 280000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 62
+RetNum: 27247	BuyNum: 41220	QueryNum:167645
+Ret: 257 ns/op	Buy: 1080 ns/op	Query: 2549 ns/op
+Throughput: 138046.4295028656 kop/s
+Throughput: 4516.129032258064 kop/s
+
+
+
+==== ThreadNum: 32, 10000 op per thread ====
+Total op num: 320000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 66
+RetNum: 31099	BuyNum: 45227	QueryNum:191928
+Ret: 316 ns/op	Buy: 1023 ns/op	Query: 2432 ns/op
+Throughput: 164156.69769992816 kop/s
+Throughput: 4848.484848484848 kop/s
+
+
+
+==== ThreadNum: 40, 10000 op per thread ====
+Total op num: 400000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 99
+RetNum: 37045	BuyNum: 51066	QueryNum:240629
+Ret: 319 ns/op	Buy: 1219 ns/op	Query: 2573 ns/op
+Throughput: 189670.9145589476 kop/s
+Throughput: 4040.40404040404 kop/s
+
+
+
+==== ThreadNum: 48, 10000 op per thread ====
+Total op num: 480000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 132
+RetNum: 43432	BuyNum: 57867	QueryNum:288084
+Ret: 831 ns/op	Buy: 1505 ns/op	Query: 2857 ns/op
+Throughput: 197470.6734604762 kop/s
+Throughput: 3636.3636363636365 kop/s
+
+
+
+==== ThreadNum: 56, 10000 op per thread ====
+Total op num: 560000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 133
+RetNum: 53807	BuyNum: 68648	QueryNum:335617
+Ret: 255 ns/op	Buy: 2919 ns/op	Query: 3203 ns/op
+Throughput: 198974.0577773341 kop/s
+Throughput: 4210.526315789473 kop/s
+
+
+
+==== ThreadNum: 64, 10000 op per thread ====
+Total op num: 640000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 119
+RetNum: 55147	BuyNum: 69695	QueryNum:383843
+Ret: 226 ns/op	Buy: 1018 ns/op	Query: 2329 ns/op
+Throughput: 332949.8534516411 kop/s
+Throughput: 5378.151260504202 kop/s
+
+
+
+==== ThreadNum: 128, 10000 op per thread ====
+Total op num: 1280000
+RouteNum: 5, CoachNum: 8, SeatNum: 100, StationNum: 10
+Total execution times: 240
+RetNum: 90671	BuyNum: 104836	QueryNum:767691
+Ret: 368 ns/op	Buy: 1030 ns/op	Query: 2322 ns/op
+Throughput: 640653.45857277 kop/s
+Throughput: 5333.333333333333 kop/s
